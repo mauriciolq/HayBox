@@ -85,14 +85,14 @@ const Config default_config = {
     .communication_backend_configs = new CommunicationBackendConfig[2] {
         CommunicationBackendConfig {
             .backend_id = COMMS_BACKEND_GAMECUBE,
-            .default_mode_config = 1,
+            .default_mode_config = 3,
             .activation_binding_count = 1,
             .activation_binding = new Button[1] { BTN_RT1 },
             .secondary_backends = {},
         },
         CommunicationBackendConfig {
             .backend_id = COMMS_BACKEND_N64,
-            .default_mode_config = 1,
+            .default_mode_config = 3,
             .activation_binding_count = 1,
             .activation_binding = new Button[1] { BTN_RT3 },
             .secondary_backends = {},
@@ -104,8 +104,8 @@ const Config default_config = {
     .keyboard_modes = {},
     .rgb_configs_count = 0,
     .rgb_configs = {},
-    .default_backend_config = 1,
-    .default_usb_backend_config = 1,
+    .default_backend_config = 3,
+    .default_usb_backend_config = 3,
     .rgb_brightness = 0,
     .has_melee_options = true,
     .melee_options = {
